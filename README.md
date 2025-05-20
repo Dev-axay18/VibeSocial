@@ -2,8 +2,7 @@
 
 # ✨ VibeSocial – A Modern Reels Experience
 
-
-https://github.com/user-attachments/assets/316a5c03-eef4-443a-9bbf-d701323ccb9a
+![Inspired by Reels  Powered by React  Styled with Vibes](https://github.com/user-attachments/assets/8f0fff52-18d6-4f4d-bbbc-1217934616b4)
 
 </div>
 
