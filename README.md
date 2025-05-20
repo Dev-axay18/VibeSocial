@@ -66,7 +66,7 @@
 
 ### 🔥 Explore Page
 
-![ExplorePage Screenshot](https://via.placeholder.com/800x450.png?text=Explore+Page)
+![image (2) (1)](https://github.com/user-attachments/assets/7a4cb9a1-ce71-4b3d-b98c-ab2027934754)
 
 ### ➕ Create Post Page
 
@@ -74,8 +74,8 @@
 
 
 ### 📽️ VibeReels Page
+![Screenshot 2025-05-20 121349](https://github.com/user-attachments/assets/acf23c31-f9b0-49ef-86d2-f252c5046427)
 
-![VibeReels Screenshot](https://via.placeholder.com/800x450.png?text=VibeReels+Page)
 
 ### 💬 Chat Section Page 
 
