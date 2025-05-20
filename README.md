@@ -1,162 +1,225 @@
-# VibeSocial - A Social Messaging Application
+<div align="center">
 
-A full-stack social messaging application built with React, Express, and Socket.io.
+# ✨ VibeSocial – A Modern Reels Experience
 
-## Features
+![Inspired by Reels  Powered by React  Styled with Vibes](https://github.com/user-attachments/assets/8f0fff52-18d6-4f4d-bbbc-1217934616b4)
 
-- Real-time messaging with Socket.io
-- User authentication (JWT)
-- Private and group chats
-- Online/offline status
-- Typing indicators
-- File uploads (images)
-- Responsive design
+</div>
 
-## Prerequisites
+<img src="https://i.imgur.com/8Km9tLL.gif" width="100%" height="4px"/>
 
-- Node.js (v14 or higher)
-- npm or yarn
-- MongoDB Atlas account or local MongoDB instance
-- Cloudinary account (for file uploads)
+## 🎬 Introduction
 
-## Setup Instructions
+> **VibeSocial** is a next-generation social media platform inspired by Instagram Reels — built for aesthetic lovers, modern creators, and tech enthusiasts. Featuring:
+>
+> * 🎥 Vertical Reel-like Video Feed
+> * 🌀 Infinite Scroll with Realistic User & Post Generation
+> * 💬 Advanced Comment System with Threaded Replies, Emojis, Likes, and Pinned Comments
+> * 🚀 Built with modern front-end tech: **React**, **Tailwind CSS**, **Framer Motion**, and API integration for seamless experiences.
 
-### 1. Clone the repository
+🌐 **Project Status**: Currently in development. **Live Preview Coming Soon for User Testing!**
+
+<img src="https://i.imgur.com/8Km9tLL.gif" width="100%" height="4px"/>
+
+## 🛠️ Tech Stack
+
+| Category        | Technologies Used                                      |
+| --------------- | ------------------------------------------------------ |
+| Frontend        | React.js, Tailwind CSS, HTML, JavaScript               |
+| Animation       | Framer Motion                                          |
+| Icons & Assets  | React Icons, Pexels API (for mock data/images)         |
+| Data Generation | Faker.js (Realistic usernames, posts, avatars)         |
+| Infinite Scroll | IntersectionObserver API + State Management            |
+| Styling         | Custom Gradients, Modern UI Design, Responsive Layouts |
+| Version Control | Git & GitHub                                           |
+
+<img src="https://i.imgur.com/8Km9tLL.gif" width="100%" height="4px"/>
+
+## 📦 Features Showcase
+
+| Feature                    | Description                                                             |
+| -------------------------- | ----------------------------------------------------------------------- |
+| 🎥 VibeReel View           | A scrollable Instagram Reels-style feed, one reel per view              |
+| 👤 Profile UI              | User bio, follower stats, post grid, and smooth layout                  |
+| 💬 Advanced Comment System | Supports replying, liking, pinning, emojis/stickers, blur transitions   |
+| 🌀 Infinite Scrolling Feed | Auto loads more posts when you scroll to bottom, with dynamic user data |
+| ✨ Aesthetic Animations     | All pages/components use Framer Motion for smooth interactions          |
+| 🌈 Gradient UI             | Custom black-pink & purple gradient overlays and buttons                |
+| 🔄 Real-Time Post Updates  | Coming soon via Socket.io for likes/comments on reels                   |
+| 📷 Explore/Search Pages    | Allow you to discover new users, posts, and popular reels easily        |
+| ➕ Upload Page              | Upload reels with captions and audio (UI Ready)                         |
+
+---
+
+## 📸 Screenshots
+
+> A glimpse into the stunning UI of **VibeSocial**
+
+### 🏠 Home Page
+
+![Screenshot 2025-05-20 110722](https://github.com/user-attachments/assets/3c3acd75-520e-4ec8-b417-3d9073789e31)
+
+
+### 🔍 Search Page
+
+![image](https://github.com/user-attachments/assets/447d10c2-4428-446a-a096-9c448f601902)
+
+### 🔥 Explore Page
+
+![image (2) (1)](https://github.com/user-attachments/assets/7a4cb9a1-ce71-4b3d-b98c-ab2027934754)
+
+### ➕ Create Post Page
+
+![Create Post](https://github.com/user-attachments/assets/6cb119fe-206d-4e4e-b6e1-4fdb06fdf40f)
+
+
+### 📽️ VibeReels Page
+![Screenshot 2025-05-20 121349](https://github.com/user-attachments/assets/acf23c31-f9b0-49ef-86d2-f252c5046427)
+
+
+### 💬 Chat Section Page 
+
+![Screenshot 2025-05-20 113350](https://github.com/user-attachments/assets/d8a8cd26-4f14-487e-9e74-80f7f76ecd73)
+
+
+### 🛎️ Notification Page
+
+![Screenshot 2025-05-20 113635](https://github.com/user-attachments/assets/4baa5436-bc87-4466-b0a6-dc1b4ae9fba0)
+
+
+### 👤 Profile Page
+
+![Screenshot 2025-05-20 113748](https://github.com/user-attachments/assets/4e753721-213a-4db6-881d-abe1bc50b3c3)
+
+### 📝 Edit Profile Page 
+
+![image (1)](https://github.com/user-attachments/assets/a726f263-c835-4a9d-ae46-6fc324424cb6)
+
+
+<img src="https://i.imgur.com/8Km9tLL.gif" width="100%" height="4px"/>
+
+## ⚙️ Installation & Setup Guide
+
+Follow these steps to run the project locally:
+
+### 📦 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd vibesocial
+https://github.com/Dev-axay18/VibeSocial.git
+cd VibeSocial
 ```
 
-### 2. Set up the backend
+### 🧱 2. Install Dependencies
 
-1. Navigate to the server directory:
-   ```bash
-   cd server
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Create a `.env` file in the server directory:
-   ```bash
-   cp .env.example .env
-   ```
-
-4. Update the `.env` file with your configuration:
-   - Set `MONGO_URI` to your MongoDB connection string
-   - Set `JWT_SECRET` to a secure random string
-   - Set Cloudinary credentials if using file uploads
-   - Adjust other settings as needed
-
-### 3. Set up the frontend
-
-1. Navigate to the project root directory:
-   ```bash
-   cd ..
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-## Running the Application
-
-### Development Mode
-
-1. Start both frontend and backend in development mode:
-   ```bash
-   npm run dev:fullstack
-   ```
-   This will start:
-   - Frontend on http://localhost:5173
-   - Backend on http://localhost:5000
-
-### Production Mode
-
-1. Build the frontend:
-   ```bash
-   npm run build
-   ```
-
-2. Start the production server:
-   ```bash
-   npm start
-   ```
-   The application will be served from the backend on http://localhost:5000
-
-## Environment Variables
-
-### Server (.env)
-
-- `PORT` - Port for the Express server (default: 5000)
-- `NODE_ENV` - Node environment (development/production)
-- `MONGO_URI` - MongoDB connection string
-- `JWT_SECRET` - Secret key for JWT tokens
-- `JWT_EXPIRES_IN` - JWT token expiration time
-- `FRONTEND_URL` - URL of the frontend (for CORS)
-- `CLOUDINARY_*` - Cloudinary configuration for file uploads
-
-## Project Structure
-
-```
-.
-├── public/              # Static files
-├── server/              # Backend code
-│   ├── config/         # Configuration files
-│   ├── controllers/    # Route controllers
-│   ├── middleware/     # Custom middleware
-│   ├── models/         # Database models
-│   ├── routes/         # API routes
-│   ├── utils/          # Utility functions
-│   ├── .env            # Environment variables
-│   ├── server.js       # Main server file
-│   └── package.json    # Backend dependencies
-├── src/                # Frontend source code
-│   ├── components/     # Reusable components
-│   ├── contexts/       # React contexts
-│   ├── pages/          # Page components
-│   ├── App.jsx         # Main App component
-│   └── main.jsx        # Entry point
-├── .env                # Frontend environment variables
-└── package.json        # Frontend dependencies and scripts
+```bash
+npm install
 ```
 
-## Deployment
+#### Required Dependencies Overview
 
-### Heroku
+```json
+{
+  "dependencies": {
+    "@emoji-mart/data": "^1.2.1",
+    "@emoji-mart/react": "^1.1.1",
+    "@faker-js/faker": "^9.8.0",
+    "@headlessui/react": "^1.7.17",
+    "axios": "^1.9.0",
+    "clsx": "^2.1.1",
+    "emoji-picker-react": "^4.12.2",
+    "firebase": "^10.7.1",
+    "framer-motion": "^10.18.0",
+    "lucide-react": "^0.292.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-feather": "^2.0.10",
+    "react-hot-toast": "^2.4.1",
+    "react-intersection-observer": "^9.5.3",
+    "react-router-dom": "^6.20.1",
+    "socket.io-client": "^4.7.2",
+    "tailwind-scrollbar-hide": "^2.0.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "concurrently": "^9.1.2",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "vite": "^5.0.8"
+  }
+}
+```
 
-1. Create a new Heroku app
-2. Set up the following config vars in Heroku:
-   - `NODE_ENV=production`
-   - `MONGODB_URI` - Your MongoDB connection string
-   - `JWT_SECRET` - Your JWT secret
-   - `FRONTEND_URL` - Your frontend URL
-   - Other environment variables as needed
-3. Push to Heroku:
-   ```bash
-   git push heroku main
-   ```
+### 🔑 3. Set Up API Keys
 
-### Other Platforms
+> Create a `.env` file in the root and add:
 
-For other platforms (Vercel, Netlify, etc.), you'll need to:
-1. Build the frontend
-2. Configure the backend to serve static files (already set up in `server.js`)
-3. Set up environment variables
-4. Deploy the entire project
+```
+VITE_PEXELS_API_KEY=your_api_key_here
+```
 
-## Contributing
+### 🚀 4. Run the App
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Create a new Pull Request
+```bash
+npm run dev
+```
 
-## License
+> App will run at: `http://localhost:5173`
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+<img src="https://i.imgur.com/8Km9tLL.gif" width="100%" height="4px"/>
+
+## 🚧 Features Overview
+
+* 🔄 **Infinite Scroll Feed** (powered by IntersectionObserver + Random Data API)
+* 💬 **Threaded Comments** with Like/Reply/Pin options
+* 🌀 **Animated Story Cards** and Post Cards with Framer Motion
+* 🎨 **Gradient-Rich UI** inspired by Instagram but uniquely custom
+* 🧠 **Responsive & Modular Code** for scalability
+
+<img src="https://i.imgur.com/8Km9tLL.gif" width="100%" height="4px"/>
+
+## 📌 Upcoming Enhancements
+
+* 🌐 **Live Hosting & Testing Phase** (Coming Soon!)
+* 📱 **Mobile Optimization**
+* 🔐 **Authentication & Authorization**
+* 💡 **Reel Upload + Like/Comment in Realtime (Socket.io)**
+* 🧠 **AI-Powered Caption Suggestions & Video Tagging**
+* 🎭 **AR Effects & Filters (Future Integration)**
+* 📊 **Insights Dashboard for Creator Analytics**
+* 🧩 **Drag & Drop Reel Editor**
+* 🧵 **Hashtags + Trending Section**
+* ⏰ **Scheduled Post Uploads with Calendar Picker**
+* 🎵 **Audio Library for Background Tracks**
+* 🧠 **Personalized Reel Recommendations Using AI**
+* 🔎 **Smart Search with Semantic Filters**
+* 💌 **DM & Messaging System**
+
+<img src="https://i.imgur.com/8Km9tLL.gif" width="100%" height="4px"/>
+
+## 🙌 Contributing
+
+Feel free to open issues or submit pull requests for suggestions and features. Let’s make VibeSocial better together!
+
+<img src="https://i.imgur.com/8Km9tLL.gif" width="100%" height="4px"/>
+
+## 📫 Connect With Me
+
+* 💼 [LinkedIn](https://linkedin.com/in/your-profile)
+* 🛠️ [GitHub](https://github.com/your-username)
+* 📸 [Instagram](https://instagram.com/your-project)
+
+---
+
+<div align="center">
+
+### 🌟 Made with 💖 by Akshay Kale
+
+</div>
