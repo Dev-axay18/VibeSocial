@@ -2,7 +2,8 @@
 
 # ✨ VibeSocial – A Modern Reels Experience
 
-![VibeSocial Banner](https://via.placeholder.com/1200x400.png?text=VibeSocial+%7C+Modern+Reels+Experience)
+
+https://github.com/user-attachments/assets/316a5c03-eef4-443a-9bbf-d701323ccb9a
 
 </div>
 
