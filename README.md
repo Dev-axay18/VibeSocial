@@ -1,104 +1,212 @@
-# VibeSocial Messaging API
+<div align="center">
 
-Backend server for the VibeSocial messaging application built with Express.js and MongoDB.
+# ✨ VibeSocial – A Modern Reels Experience
 
-## Features
+![VibeSocial Banner](https://via.placeholder.com/1200x400.png?text=VibeSocial+%7C+Modern+Reels+Experience)
 
-- User authentication (register, login, logout)
-- Real-time messaging using Socket.IO
-- One-on-one and group chats
-- Message read/delivery status
-- File attachments
-- Message forwarding
-- Reply to messages
-- Typing indicators
-- Online status
+</div>
 
-## Tech Stack
+<img src="https://i.imgur.com/8Km9tLL.gif" width="100%" height="4px"/>
 
-- Node.js
-- Express.js
-- MongoDB Atlas (Database)
-- Socket.IO (Real-time communication)
-- JWT (Authentication)
-- Bcrypt (Password hashing)
+## 🎬 Introduction
 
-## Installation
+> **VibeSocial** is a next-generation social media platform inspired by Instagram Reels — built for aesthetic lovers, modern creators, and tech enthusiasts. Featuring:
+>
+> * 🎥 Vertical Reel-like Video Feed
+> * 🌀 Infinite Scroll with Realistic User & Post Generation
+> * 💬 Advanced Comment System with Threaded Replies, Emojis, Likes, and Pinned Comments
+> * 🚀 Built with modern front-end tech: **React**, **Tailwind CSS**, **Framer Motion**, and API integration for seamless experiences.
 
-1. Clone the repository
-2. Install dependencies:
-   ```
-   cd server
-   npm install
-   ```
-3. Create a `.env` file in the server directory with the following variables:
-   ```
-   PORT=5000
-   MONGO_URI=your_mongodb_atlas_connection_string
-   JWT_SECRET=your_jwt_secret
-   NODE_ENV=development
-   ```
+🌐 **Project Status**: Currently in development. **Live Preview Coming Soon for User Testing!**
 
-## MongoDB Atlas Setup
+<img src="https://i.imgur.com/8Km9tLL.gif" width="100%" height="4px"/>
 
-1. Create a MongoDB Atlas account at [https://www.mongodb.com/cloud/atlas](https://www.mongodb.com/cloud/atlas)
-2. Create a new cluster
-3. Set up a database user with read/write permissions
-4. Add your IP address to the allowlist
-5. Get your connection string and replace `your_mongodb_atlas_connection_string` in the `.env` file
+## 🛠️ Tech Stack
 
-## Running the Server
+| Category        | Technologies Used                                      |
+| --------------- | ------------------------------------------------------ |
+| Frontend        | React.js, Tailwind CSS, HTML, JavaScript               |
+| Animation       | Framer Motion                                          |
+| Icons & Assets  | React Icons, Pexels API (for mock data/images)         |
+| Data Generation | Faker.js (Realistic usernames, posts, avatars)         |
+| Infinite Scroll | IntersectionObserver API + State Management            |
+| Styling         | Custom Gradients, Modern UI Design, Responsive Layouts |
+| Version Control | Git & GitHub                                           |
+
+<img src="https://i.imgur.com/8Km9tLL.gif" width="100%" height="4px"/>
+
+## 📦 Features Showcase
+
+| Feature                    | Description                                                             |
+| -------------------------- | ----------------------------------------------------------------------- |
+| 🎥 VibeReel View           | A scrollable Instagram Reels-style feed, one reel per view              |
+| 👤 Profile UI              | User bio, follower stats, post grid, and smooth layout                  |
+| 💬 Advanced Comment System | Supports replying, liking, pinning, emojis/stickers, blur transitions   |
+| 🌀 Infinite Scrolling Feed | Auto loads more posts when you scroll to bottom, with dynamic user data |
+| ✨ Aesthetic Animations     | All pages/components use Framer Motion for smooth interactions          |
+| 🌈 Gradient UI             | Custom black-pink & purple gradient overlays and buttons                |
+| 🔄 Real-Time Post Updates  | Coming soon via Socket.io for likes/comments on reels                   |
+| 📷 Explore/Search Pages    | Allow you to discover new users, posts, and popular reels easily        |
+| ➕ Upload Page              | Upload reels with captions and audio (UI Ready)                         |
+
+---
+
+## 📸 Screenshots
+
+> A glimpse into the stunning UI of **VibeSocial**
+
+### 🏠 Home Page
+
+![HomePage Screenshot](https://via.placeholder.com/800x450.png?text=Home+Page)
+
+### 🔍 Search Page
+
+![SearchPage Screenshot](https://via.placeholder.com/800x450.png?text=Search+Page)
+
+### 🔥 Explore Page
+
+![ExplorePage Screenshot](https://via.placeholder.com/800x450.png?text=Explore+Page)
+
+### ➕ Create Post Page
+
+![CreatePost Screenshot](https://via.placeholder.com/800x450.png?text=Create+Post+Page)
+
+### 📽️ VibeReels Page
+
+![VibeReels Screenshot](https://via.placeholder.com/800x450.png?text=VibeReels+Page)
+
+### 🛎️ Notification Page
+
+![NotificationPage Screenshot](https://via.placeholder.com/800x450.png?text=Notification+Page)
+
+### 👤 Profile Page
+
+![ProfilePage Screenshot](https://via.placeholder.com/800x450.png?text=Profile+Page)
+
+<img src="https://i.imgur.com/8Km9tLL.gif" width="100%" height="4px"/>
+
+## ⚙️ Installation & Setup Guide
+
+Follow these steps to run the project locally:
+
+### 📦 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/VibeSocial.git
+cd VibeSocial
+```
+
+### 🧱 2. Install Dependencies
+
+```bash
+npm install
+```
+
+#### Required Dependencies Overview
+
+```json
+{
+  "dependencies": {
+    "@emoji-mart/data": "^1.2.1",
+    "@emoji-mart/react": "^1.1.1",
+    "@faker-js/faker": "^9.8.0",
+    "@headlessui/react": "^1.7.17",
+    "axios": "^1.9.0",
+    "clsx": "^2.1.1",
+    "emoji-picker-react": "^4.12.2",
+    "firebase": "^10.7.1",
+    "framer-motion": "^10.18.0",
+    "lucide-react": "^0.292.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-feather": "^2.0.10",
+    "react-hot-toast": "^2.4.1",
+    "react-intersection-observer": "^9.5.3",
+    "react-router-dom": "^6.20.1",
+    "socket.io-client": "^4.7.2",
+    "tailwind-scrollbar-hide": "^2.0.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "concurrently": "^9.1.2",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "vite": "^5.0.8"
+  }
+}
+```
+
+### 🔑 3. Set Up API Keys
+
+> Create a `.env` file in the root and add:
 
 ```
-# Development mode with hot reload
+VITE_PEXELS_API_KEY=your_api_key_here
+```
+
+### 🚀 4. Run the App
+
+```bash
 npm run dev
-
-# Production mode
-npm start
 ```
 
-## API Endpoints
+> App will run at: `http://localhost:5173`
 
-### Users
-- `POST /api/users` - Register a new user
-- `POST /api/users/login` - Login user
-- `POST /api/users/logout` - Logout user (protected)
-- `GET /api/users/profile` - Get user profile (protected)
-- `PUT /api/users/profile` - Update user profile (protected)
-- `GET /api/users` - Search for users (protected)
+<img src="https://i.imgur.com/8Km9tLL.gif" width="100%" height="4px"/>
 
-### Chats
-- `POST /api/chats` - Create or access a one-on-one chat (protected)
-- `GET /api/chats` - Get all user chats (protected)
-- `POST /api/chats/group` - Create a group chat (protected)
-- `PUT /api/chats/group/:id` - Rename a group chat (protected)
-- `PUT /api/chats/group/:id/add` - Add user to a group (protected)
-- `PUT /api/chats/group/:id/remove` - Remove user from a group (protected)
+## 🚧 Features Overview
 
-### Messages
-- `POST /api/messages` - Send a new message (protected)
-- `GET /api/messages/:chatId` - Get all messages for a chat (protected)
-- `DELETE /api/messages/:id` - Delete a message (protected)
-- `PUT /api/messages/status/:chatId` - Update message status (protected)
-- `POST /api/messages/forward` - Forward a message to another chat (protected)
+* 🔄 **Infinite Scroll Feed** (powered by IntersectionObserver + Random Data API)
+* 💬 **Threaded Comments** with Like/Reply/Pin options
+* 🌀 **Animated Story Cards** and Post Cards with Framer Motion
+* 🎨 **Gradient-Rich UI** inspired by Instagram but uniquely custom
+* 🧠 **Responsive & Modular Code** for scalability
 
-## Socket.IO Events
+<img src="https://i.imgur.com/8Km9tLL.gif" width="100%" height="4px"/>
 
-### Client Events (emit)
-- `join_chat` - Join a chat room
-- `send_message` - Send a message
-- `typing` - User is typing
-- `stop_typing` - User stopped typing
+## 📌 Upcoming Enhancements
 
-### Server Events (listen)
-- `receive_message` - Receive a new message
-- `typing` - Someone is typing
-- `stop_typing` - Someone stopped typing
+* 🌐 **Live Hosting & Testing Phase** (Coming Soon!)
+* 📱 **Mobile Optimization**
+* 🔐 **Authentication & Authorization**
+* 💡 **Reel Upload + Like/Comment in Realtime (Socket.io)**
+* 🧠 **AI-Powered Caption Suggestions & Video Tagging**
+* 🎭 **AR Effects & Filters (Future Integration)**
+* 📊 **Insights Dashboard for Creator Analytics**
+* 🧩 **Drag & Drop Reel Editor**
+* 🧵 **Hashtags + Trending Section**
+* ⏰ **Scheduled Post Uploads with Calendar Picker**
+* 🎵 **Audio Library for Background Tracks**
+* 🧠 **Personalized Reel Recommendations Using AI**
+* 🔎 **Smart Search with Semantic Filters**
+* 💌 **DM & Messaging System**
 
-## Environment Variables
+<img src="https://i.imgur.com/8Km9tLL.gif" width="100%" height="4px"/>
 
-- `PORT` - Server port (default: 5000)
-- `MONGO_URI` - MongoDB Atlas connection string
-- `JWT_SECRET` - Secret key for JWT
-- `NODE_ENV` - Environment (development/production)
-- `FRONTEND_URL` - Frontend URL for CORS (production only) 
+## 🙌 Contributing
+
+Feel free to open issues or submit pull requests for suggestions and features. Let’s make VibeSocial better together!
+
+<img src="https://i.imgur.com/8Km9tLL.gif" width="100%" height="4px"/>
+
+## 📫 Connect With Me
+
+* 💼 [LinkedIn](https://linkedin.com/in/your-profile)
+* 🛠️ [GitHub](https://github.com/your-username)
+* 📸 [Instagram](https://instagram.com/your-project)
+
+---
+
+<div align="center">
+
+### 🌟 Made with 💖 by Akshay Kale
+
+</div>
