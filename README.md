@@ -212,9 +212,9 @@ Feel free to open issues or submit pull requests for suggestions and features. L
 
 ## 📫 Connect With Me
 
-* 💼 [LinkedIn](https://linkedin.com/in/your-profile)
-* 🛠️ [GitHub](https://github.com/your-username)
-* 📸 [Instagram](https://instagram.com/your-project)
+* 💼 [LinkedIn](https://www.linkedin.com/in/akshay-kale-88792932a/)
+* 🛠️ [GitHub](https://github.com/Dev-axay18)
+* 📸 [Instagram](https://www.instagram.com/md5.axay/)
 
 ---
 
