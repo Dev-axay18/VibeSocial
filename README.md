@@ -57,11 +57,12 @@
 
 ### 🏠 Home Page
 
-![HomePage Screenshot](https://via.placeholder.com/800x450.png?text=Home+Page)
+![Screenshot 2025-05-20 110722](https://github.com/user-attachments/assets/3c3acd75-520e-4ec8-b417-3d9073789e31)
+
 
 ### 🔍 Search Page
 
-![SearchPage Screenshot](https://via.placeholder.com/800x450.png?text=Search+Page)
+![image](https://github.com/user-attachments/assets/447d10c2-4428-446a-a096-9c448f601902)
 
 ### 🔥 Explore Page
 
@@ -69,19 +70,31 @@
 
 ### ➕ Create Post Page
 
-![CreatePost Screenshot](https://via.placeholder.com/800x450.png?text=Create+Post+Page)
+![Create Post](https://github.com/user-attachments/assets/6cb119fe-206d-4e4e-b6e1-4fdb06fdf40f)
+
 
 ### 📽️ VibeReels Page
 
 ![VibeReels Screenshot](https://via.placeholder.com/800x450.png?text=VibeReels+Page)
 
+### 💬 Chat Section Page 
+
+![Screenshot 2025-05-20 113350](https://github.com/user-attachments/assets/d8a8cd26-4f14-487e-9e74-80f7f76ecd73)
+
+
 ### 🛎️ Notification Page
 
-![NotificationPage Screenshot](https://via.placeholder.com/800x450.png?text=Notification+Page)
+![Screenshot 2025-05-20 113635](https://github.com/user-attachments/assets/4baa5436-bc87-4466-b0a6-dc1b4ae9fba0)
+
 
 ### 👤 Profile Page
 
-![ProfilePage Screenshot](https://via.placeholder.com/800x450.png?text=Profile+Page)
+![Screenshot 2025-05-20 113748](https://github.com/user-attachments/assets/4e753721-213a-4db6-881d-abe1bc50b3c3)
+
+### 📝 Edit Profile Page 
+
+![image (1)](https://github.com/user-attachments/assets/a726f263-c835-4a9d-ae46-6fc324424cb6)
+
 
 <img src="https://i.imgur.com/8Km9tLL.gif" width="100%" height="4px"/>
 
