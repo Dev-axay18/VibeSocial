@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://your-live-demo-link.com" target="_blank">
-    <img src="https://img.shields.io/badge/🚀 Live_Demo-%2300C853?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
+    <img src="https://img.shields.io/badge/ Live_Demo-%2300C853?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
   </a>
 </p>
 
