@@ -31,7 +31,7 @@
 | Icons & Assets  | ![React Icons](https://img.shields.io/badge/React_Icons-61DAFB?style=for-the-badge&logo=react&logoColor=white) ![Pexels API](https://img.shields.io/badge/Pexels_API-05A081?style=for-the-badge&logo=pexels&logoColor=white)                                         |
 | Data Generation | ![Faker.js](https://img.shields.io/badge/Faker.js-CF3A3A?style=for-the-badge&logo=javascript&logoColor=white)        |
 | Infinite Scroll | ![IntersectionObserver API](https://img.shields.io/badge/IntersectionObserver-000000?style=for-the-badge&logo=javascript&logoColor=yellow)           |
-| Styling         |![Responsive Design](https://img.shields.io/badge/Responsive-Design-0D9488?style=for-the-badge&logo=css3&logoColor=white) ![Custom Gradients](https://img.shields.io/badge/Custom_Gradients-FF7F50?style=for-the-badge&logo=csswizardry&logoColor=white) |
+| Styling         |![Responsive-Design](https://img.shields.io/badge/Responsive-Design-0D9488?style=for-the-badge&logo=css3&logoColor=white) ![Custom Gradients](https://img.shields.io/badge/Custom_Gradients-FF7F50?style=for-the-badge&logo=csswizardry&logoColor=white) |
 | Version Control | ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)                                        |
 
 <img src="https://i.imgur.com/8Km9tLL.gif" width="100%" height="4px"/>
