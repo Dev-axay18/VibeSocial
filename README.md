@@ -25,14 +25,15 @@
 
 | Category        | Technologies Used                                      |
 | --------------- | ------------------------------------------------------ |
-| Frontend        | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) 
+| Frontend        | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) 
 |                 |                                                        |
-| Animation       | Framer Motion                                          |
-| Icons & Assets  | React Icons, Pexels API (for mock data/images)         |
-| Data Generation | Faker.js (Realistic usernames, posts, avatars)         |
-| Infinite Scroll | IntersectionObserver API + State Management            |
-| Styling         | Custom Gradients, Modern UI Design, Responsive Layouts |
-| Version Control | Git & GitHub                                           |
+| Animation       |![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)                                |
+| Icons & Assets  | ![React Icons](https://img.shields.io/badge/React_Icons-61DAFB?style=for-the-badge&logo=react&logoColor=white) ![Pexels API](https://img.shields.io/badge/Pexels_API-05A081?style=for-the-badge&logo=pexels&logoColor=white)                                         |
+| Data Generation | ![Faker.js](https://img.shields.io/badge/Faker.js-CF3A3A?style=for-the-badge&logo=javascript&logoColor=white)        |
+| Infinite Scroll | ![IntersectionObserver API](https://img.shields.io/badge/IntersectionObserver-000000?style=for-the-badge&logo=javascript&logoColor=yellow)           |
+| Styling         |![Responsive Design](https://img.shields.io/badge/Responsive-Design-0D9488?style=for-the-badge&logo=css3&logoColor=white)![Custom Gradients](https://img.shields.io/badge/Custom_Gradients-FF7F50?style=for-the-badge&logo=csswizardry&logoColor=white) |
+| Version Control | ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)                                        |
 
 <img src="https://i.imgur.com/8Km9tLL.gif" width="100%" height="4px"/>
 
