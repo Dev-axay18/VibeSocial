@@ -6,12 +6,23 @@
 
 </div>
 
-<img src="https://i.imgur.com/8Km9tLL.gif" width="100%" height="4px"/>
 <p align="center">
-  <a href="https://vibesocials.netlify.app/" target="_blank">
-    <img src="https://img.shields.io/badge/🚀 Live_Demo-00C853?style=for-the-badge&logo=rocket&logoColor=white" alt="Live Demo Badge"/>
+  <a href="https://vibesocials.netlify.app/" target="_blank" style="
+    display: inline-block;
+    padding: 14px 28px;
+    background: linear-gradient(135deg, #00C853, #64DD17);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+  " onmouseover="this.style.background='linear-gradient(135deg, #64DD17, #00C853)'" onmouseout="this.style.background='linear-gradient(135deg, #00C853, #64DD17)'">
+    Live Demo
   </a>
 </p>
+
 
 <!-- Optional: Add a small note -->
 <p align="center"><i>Click the button above to view the live version of the project.</i></p>
