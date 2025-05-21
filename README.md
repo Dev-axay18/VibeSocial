@@ -7,6 +7,15 @@
 </div>
 
 <img src="https://i.imgur.com/8Km9tLL.gif" width="100%" height="4px"/>
+<p align="center">
+  <a href="https://vibesocials.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🚀 Live_Demo-00C853?style=for-the-badge&logo=rocket&logoColor=white" alt="Live Demo Badge"/>
+  </a>
+</p>
+
+<!-- Optional: Add a small note -->
+<p align="center"><i>Click the button above to view the live version of the project.</i></p>
+
 
 ## 🎬 Introduction
 
