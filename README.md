@@ -1,4 +1,4 @@
-<div align="center">
+  <div align="center">
 
 # ✨ VibeSocial – A Modern Reels Experience
 
@@ -11,6 +11,13 @@
     <img src="https://img.shields.io/badge/ Live_Demo-%2300C853?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
   </a>
 </p>
+<br>
+<p align="center">
+  <a href="https://akshaykale.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🎨 Portfolio-8E24AA?style=for-the-badge&logo=astro&logoColor=white" alt="Portfolio Button"/>
+  </a>
+</p>
+
 
 
 <!-- Optional: Add a small note -->
