@@ -105,7 +105,7 @@ Follow these steps to run the project locally:
 ### 📦 1. Clone the Repository
 
 ```bash
-https://github.com/Dev-axay18/VibeSocial.git
+git clone https://github.com/Dev-axay18/VibeSocial.git
 cd VibeSocial
 ```
 
